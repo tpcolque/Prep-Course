@@ -225,14 +225,14 @@ function breakStatement(numero) {
   // Tu código:
   var array = [];
   var suma = numero;
-  for(let i = 0; i <10; i++){
+  for(var i = 0; i <10; i++){
     suma = suma + 2;
     if(suma === i){
       break;
     }
     return "Se interrumpió la ejecución";
   }
-  array.push(suma);
+    return array.push(suma);
 }
 
 
